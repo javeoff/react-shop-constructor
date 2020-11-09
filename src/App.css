@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background: rgba(0, 0, 0, .01);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, .04);
+  border: 0;
+  border-radius: 15px;
+  padding: 30px 30px;
+}
+
+#login, #password {
+  border: 0;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, .05);
+}
+
+.form-check {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+#exampleCheck1 {
+  margin-top: 10px;
+}
+
+.page-login {
+  width: 100%;
+  height: 100vh;
+}
+
+.card-login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.card-login * {
+  margin-top: 5px;
+}
+
+.card-name {
+  margin-bottom: 10px;
+}
+
+.card-button {
+  width: 83%;
+  margin-right: 2%;
+}
+
+.card-button:active, .button-active {
+  background-color: seagreen;
+}
+
+.card-protect {
+  background: none;
+  border: 2px solid #28a745;
+  width: 15%;
+  color: #28a745;
+}
+
+.errorInput {
+  border: 1px solid #dc3545!important;
+}
+
+.card-protect * {
+  padding: 0;
+  margin: 0;
+}
+
+.card-protect:hover {
+  border: 2px solid #329148;
+  background: #28a745;
+  color: #fff;
+}
+
+.card-warning {
+  width: 100%;
+  border: 0;
+  color: #bb8082;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  transform: scale(2.5);
+}
+
+.admin-content {
+  width: 100%;
+  margin-top: 10px;
+  margin: 10px 2%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
